@@ -1,0 +1,267 @@
+/*
+ * Main column and videos-sidebar layout
+ */
+
+.blog-main {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Sidebar modules for boxing content */
+.videos-sidebar-module {
+  padding: .2em;
+}
+
+
+/** Mis ayudas **/
+
+/** Imagen video principal **/
+.videos-principal-img {
+  overflow: hidden;
+  width: 100%;
+  height: 600px;
+  overflow-y: hidden;
+  margin-bottom: 1em;
+}
+.videos-principal-img img {
+  transition: all 0.3s ease 0s;
+  width: 100%;
+}
+.videos-principal-img img:hover {
+  transform: scale(1.1);
+}
+
+/** Boton imagen video principal **/
+.videos-principal-img .myBtn {
+  font-family: 'Asap', sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #333;
+  z-index: 10;
+  position: absolute;
+  width: 40%;
+  border-radius: 0;
+  margin-top: .1em;
+}
+.videos-principal-img .rojo {
+  background-color: #ffe9e9;
+  transition: all 0.3s ease 0s;
+}
+.videos-principal-img .rojo:hover {
+  background-color: #ff0303;
+  color: #fff;
+}
+
+/** imagenes del aside **/
+.videos-hide-img {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  overflow-y: hidden;
+}
+.videos-hide-img img {
+  transition: all 0.3s ease 0s;
+  width: 100%;
+}
+.videos-hide-img img:hover {
+  transform: scale(1.1);
+}
+
+/** Botones imagenes aside **/
+.videos-hide-img .myBtn {
+  font-family: 'Asap', sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  font-size: 2vw;
+  color: #333;
+  z-index: 10;
+  position: absolute;
+  width: 65%;
+  border-radius: 0;
+  margin-top: .1em;
+}
+.videos-hide-img .rojo {
+  background-color: #ffe9e9;
+  transition: all 0.3s ease 0s;
+}
+.videos-hide-img .rojo:hover {
+  background-color: #ff0303;
+  color: #fff;
+}
+.videos-hide-img .negro {
+  background-color: #dedbdb;
+  transition: all 0.3s ease 0s;
+}
+.videos-hide-img .negro:hover {
+  background-color: #545454;
+  color: #fff;
+}
+.videos-hide-img .azul {
+  background-color: #B1E3F0;
+  transition: all 0.3s ease 0s;
+}
+.videos-hide-img .azul:hover {
+  background-color: #00AEDB;
+  color: #fff;
+}
+.videos-hide-img .verde {
+  background-color: #C6FFC6;
+  transition: all 0.3s ease 0s;
+}
+.videos-hide-img .verde:hover {
+  background-color: #91DA38;
+  color: #fff;
+}
+.videos-hide-img .azul-verd {
+  background-color: #B5F9E8;
+  transition: all 0.3s ease 0s;
+}
+.videos-hide-img .azul-verd:hover {
+  background-color: #27C5CB;
+  color: #fff;
+}
+.form-group {
+    margin-bottom: .4em;
+}
+
+.myform-videos{
+  width: 70%;
+  z-index: 8;
+  position: absolute;
+  bottom: 2em;
+  right: 3em;
+}
+.myform-videos form button{
+  color: white;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  
+  .videos-principal-img {
+  height: 550px;
+}
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .container{
+    width: 95%
+  }
+  .videos-principal-img {
+  height: 55vw;
+}
+  .videos-hide-img .myBtn {
+    
+    width: 45%;
+  }
+  .videos-hide-img h2 {
+    font-size: 3vw;
+    
+  }
+  .myform-videos{
+    width: 60%;
+    
+  }
+}
+@media screen and (max-width: 768px) {
+.container{
+  width: 85%
+}
+.videos-principal-img {
+  height: 400px;
+}
+.videos-hide-img .myBtn {
+  font-size: 3vw;
+  }
+
+.playIcon a i{
+  font-size: 2em;
+
+}
+}
+
+.embed-responsive {
+  position: relative;
+  display: block;
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.embed-responsive .embed-responsive-item,
+.embed-responsive iframe,
+.embed-responsive embed,
+.embed-responsive object,
+.embed-responsive video {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.embed-responsive-16by9 {
+  padding-bottom: 56.25%;
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+.embed-responsive-4by3 {
+  padding-bottom: 75%;
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+.myLabel{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: red;
+  height: 2em;
+  z-index: 10;
+  line-height: 2em;
+  text-align: center;
+  font-family: 'Asap', sans-serif;
+  font-weight: bold;
+  font-size: 1.3em;
+  color: #FFF;
+  opacity: .8;
+}
+
+
+
+/********************************
+// Mi experimento con el modal //
+*******************************/
+/***** Modal *****/
+ 
+.modal-backdrop.in {
+    filter: alpha(opacity=7);
+    opacity: 0.7;
+}
+ 
+.modal-content {
+    background: none;
+    border: 0;
+    -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
+    -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
+}
+ 
+.modal-body {
+    padding: 0 25px 25px 25px;
+}
+ 
+.modal-header {
+    padding: 25px 25px 15px 25px;
+    text-align: right;
+}
+ 
+.modal-header, .modal-footer {
+    border: 0;
+}
+ 
+.modal-header .close {
+    float: none;
+    margin: 0;
+    font-size: 36px;
+    color: #fff;
+    font-weight: 300;
+    text-shadow: none;
+    opacity: 1;
+}
