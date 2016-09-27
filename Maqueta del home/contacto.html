@@ -127,147 +127,97 @@
 	</div>
 	<!-- /FIN Botones de las redes sociales y campo de búsqueda-->
 
-	<!-- Carrusel de imágenes Zambrano-->
 	
-	<div id="myCarousel" class="carousel slide text-center center-block" data-ride="carousel">
-		<!-- Indicators -->
-		<ol class="carousel-indicators">
-			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-			<li data-target="#myCarousel" data-slide-to="1"></li>
-			<li data-target="#myCarousel" data-slide-to="2"></li>
-		</ol>
 
-		<!-- Wrapper for slides -->
-		<div class="carousel-inner" role="listbox">
-			<div class="item active">
-				<img src="http://placehold.it/1200x315" alt="Primera Imagen" class="img-responsive">
-				<div class="carousel-caption">
-					<div class="mytitle">
-						<h3>Entrenamiento</h3>
-					</div>
-					<div class="myparragraph">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur numquam exercitationem rerum provident, consequatur repellendus maiores pariatur vero temporibus, impedit fugit velit ullam, sit aliquam recusandae. Deleniti dolore, animi architecto.</p>
-					</div>
-					
-				</div>
-			</div>
+	<!-- Contenedor del formulario -->
+	<div class="myFormContainer">
+		<div class="row container-contacto">
 
-			<div class="item">
-				<img src="http://placehold.it/1200x315" alt="Primera Imagen" class="img-responsive">
-				<div class="carousel-caption">
-					<div class="mytitle">
-						<h3>Guía de nutrición</h3>
-					</div>
-					<div class="myparragraph">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur numquam exercitationem rerum provident, consequatur repellendus maiores pariatur vero temporibus, impedit fugit velit ullam, sit aliquam recusandae. Deleniti dolore, animi architecto.</p>
-					</div>
-					
-				</div>
-			</div>
+			<!-- Un espacio en blanco a la izquierda del formulario -->
+			<div class="col-md-1"></div>
+			<!-- /FIN Un espacio en blanco a la izquierda del formulario -->
 
-			<div class="item">
-				<img src="http://placehold.it/1200x315" alt="Primera Imagen" class="img-responsive">
-				<div class="carousel-caption">
-					<div class="mytitle">
-						<h3>Tips</h3>
+
+			<!-- Formulario de Contacto -->
+			<div class="col-md-8">
+				<!-- class container-form -->
+				<div class="container-form">
+					<div class="title-contact">
+						<h2>Contacto</h2>
 					</div>
-					<div class="myparragraph">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur numquam exercitationem rerum provident, consequatur repellendus maiores pariatur vero temporibus, impedit fugit velit ullam, sit aliquam recusandae. Deleniti dolore, animi architecto.</p>
-					</div>
-					
-				</div>
-			</div>
-		</div>
-	</div>
+
+					<!-- class row -->
+					<div class="row">
+						<!-- Nombre -->
+						<div class="form-group col-md-6">
+							<label for="nombre">Nombre*</label>
+							<input type="text" class="form-control" id="nombre" placeholder="Nombre">
+						</div>
+						<!-- /FIN Nombre -->
+
+						<!-- Apellido -->
+						<div class="form-group col-md-6">
+							<label for="apellido">Apellido*</label>
+							<input type="text" class="form-control" id="apellido" placeholder="Apellido">
+						</div>
+						<!-- /FIN Apellido -->
+
+						<!-- Email -->
+						<div class="form-group col-md-12">
+							<label for="email">Email*</label>
+							<input type="email" class="form-control" id="email" placeholder="Email">
+						</div>
+						<!-- /FIN Email -->
+
+						<!-- Teléfono -->
+						<div class="form-group col-md-12">
+							<fieldset>
+								<legend>Teléfono*</legend>
+								<div class="form-group col-md-2 center-group">
+									<input type="text" class="form-control" id="pais">
+									<label for="pais">País</label>
+								</div>
+								<div class="form-group col-md-2 center-group">
+									<input type="text" class="form-control" id="###" >
+									<label for="###">(###)</label>
+								</div>
+								<div class="form-group col-md-6">
+									<input type="text" class="form-control" id="###" >
+									<label for="###">(###)</label>
+								</div>
+							</fieldset>
+						</div>
+						<!-- /FIN Teléfono -->
+
+						<!-- En que te puedo ayudar -->
+						<div class="form-group col-md-12">
+							<label for="ayuda">En que te puedo ayudar*</label>
+							<textarea class="form-control" rows="5"></textarea>
+						</div>
+						<!-- /FIN En que te puedo ayudar -->
 	
-	<!-- /FIN Carrusel de imágenes Zambrano-->
-
-	<!-- Artículos V.02 -->
-	<div class="container myArticles">
-		<div class="row">
-			<div class="col-sm-8 col-md-8">
-				<div class="principal-img hide-img">
-					<p>
-						<a class="btn myBtn naranja" href="#" role="button">Rutinas</a>
-					</p>
-					<img src="http://placehold.it/600x600" class="img-responsive" alt="Rutinas" />
-					
-				</div>
-
-				<div class="col-xs-12 col-sm-12 col-md-6">
-					<div class="thumbnail hide-img">
-						<p>
-							<a class="btn myBtn verde" href="#" role="button">Nutrición</a>
-						</p>
-						<img src="http://placehold.it/350x250" alt="Nutrición" />
-						<h2>Vegetales ayudan al...</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit expedita, voluptatum explicabo neque architecto minima dolor quisquam. Totam excepturi officiis debitis repellendus facere eos, nam, fuga dolorum enim aperiam. Repellat!</p>
+						<!-- Botón Enviar -->
+						<div class="form-group col-md-12">
+							<button class="btn btn-default" type="submit">Enviar</button>
+						</div>
+						<!-- /FIN Botón Enviar -->
 					</div>
+					<!-- /FIN class row -->
 				</div>
+				<!-- /FIN class container-form -->
+			</div>
+			<!-- /FIN Formulario de Contacto -->
 
-				<div class="col-xs-12 col-sm-12 col-md-6">
-					<div class="thumbnail hide-img">
-						<p>
-							<a class="btn myBtn azul-verd" href="#" role="button">Salud</a>
-						</p>
-						<img src="http://placehold.it/350x250" alt="Salud" />
-						<h2>Trotar mejora tu...</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit expedita, voluptatum explicabo neque architecto minima dolor quisquam. Totam excepturi officiis debitis repellendus facere eos, nam, fuga dolorum enim aperiam. Repellat!</p>
+
+			<!-- Barra Lateral con la imagen de zambrano -->
+			<div class="col-md-3 hidden-xs hidden-sm hidden-md blog-sidebar">
+				<div  class="container-zambrano">
+					<div class=" hide-img">
+						<img class="embed-responsive-item " src="http://placehold.it/350x800" alt="Videos" />
 					</div>
 				</div>
 			</div>
-
-
-			<!-- Barra Lateral de videos, publicidad y boletín para suscripción -->
-			<div class="col-sm-4 blog-sidebar">
-				<div  class=" sidebar-module">
-					<p>
-						<a class="btn myBtn rojo" href="#" role="button">Videos</a>
-					</p>
-					<div id="myVideo" class=" hide-img">
-						
-						<img class="embed-responsive-item " src="http://placehold.it/350x250" alt="Videos" />
-					</div>
-				</div>
-				<div class="sidebar-module">
-					<div >
-						<div class="img-thumbnail hide-img">
-							<p>
-								<a class="btn myBtn negro" href="#" role="button">Publicidad</a>
-							</p>
-							<img src="http://placehold.it/350x250" alt="Videos" />
-							<h2>Espacio publicitario</h2>
-							
-						</div>
-					</div>
-				</div>
-				<div class="sidebar-module">
-					<div >
-						<div class="img-thumbnail hide-img">
-							<p>
-								<a class="btn myBtn azul" href="#" role="button">Boletín</a>
-							</p>
-							<img src="http://placehold.it/350x250" alt="Boletín" />
-							<div class="myform">
-								<form class="form-horizontal">
-									<div class="form-group">
-										<div class="col-xs-12 col-sm-12 col-md-12">
-											<input type="email" class="form-control" id="email" placeholder="Dirección de correo electrónico">
-										</div>
-									</div>
-									<div class="form-group pull-right">
-										<div class=" col-xs-6 col-sm-6 col-md-4">
-											<button type="submit" class="btn azul">Suscribete</button>
-										</div>
-									</div>
-								</form>
-							</div>
-							
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- /FIN Barra Lateral de videos, publicidad y boletín para suscripción -->
+			<!-- /FIN Barra Lateral con la imagen de zambrano -->
 		</div>
 	</div>
 	<!-- /FIN Artículos V.02 -->
