@@ -8030,4 +8030,13 @@ footer .redes-sociales a {
   margin-bottom: 20px;
   color: #999;
 }
+
+h2 a{
+  text-decoration: none;
+  color: #333333;
+}
+h2 a:hover{
+  text-decoration: none;
+  color: #333333;
+}
 /*# sourceMappingURL=estilos.css.map */
