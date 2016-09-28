@@ -223,7 +223,14 @@
   color: #FFF;
   opacity: .8;
 }
-
+.myLabel a{
+  text-decoration: none;
+  color: #FFF;
+}
+.myLabel a:hover{
+  text-decoration: none;
+  color: #FFF;
+}
 
 
 /********************************
