@@ -8016,4 +8016,18 @@ footer .redes-sociales a {
   background-color: grey;
 }
 
+/** AYUDAS PARA LAS VISTAS **/
+.blog-post {
+  margin-bottom: 60px;
+}
+.blog-post-title {
+  margin-bottom: 5px;
+  font-size: 2em;
+  font-family: 'Asap', sans-serif;
+  font-weight: bold;
+}
+.blog-post-meta {
+  margin-bottom: 20px;
+  color: #999;
+}
 /*# sourceMappingURL=estilos.css.map */
