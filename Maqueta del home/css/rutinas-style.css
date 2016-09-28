@@ -63,6 +63,14 @@
   color: #fff;
 }
 
+.principal-img .verde {
+  background-color: #C6FFC6;
+  transition: all 0.3s ease 0s;
+}
+.principal-img .verde:hover {
+  background-color: #91DA38;
+  color: #fff;
+}
 /** imagenes del aside **/
 .hide-img {
   overflow: hidden;
