@@ -7711,6 +7711,7 @@ footer nav .mynavbar-f {
 }
 footer nav .mynavbar-f .nav {
   float: none;
+  margin: 0;
 }
 footer nav .mynavbar-f .nav li {
   display: inline-block;
@@ -7735,6 +7736,68 @@ footer .redes-sociales {
 footer .redes-sociales .redes-margin {
   margin: 0 1.8em;
 }
+
+/** MEDIA QUERIES PARA EL FOOTER**/
+@media screen and (max-width: 329px) {
+  footer .redes-sociales .redes-margin {
+    margin: 0 .8em;
+  }
+  footer {
+    height: 400px;
+  }
+  
+}
+
+@media (min-width: 540px) and (max-width: 640px) {
+  footer nav .mynavbar-f .nav li{
+    display: block;
+    width: 40%
+  }
+  footer nav .mynavbar-f {
+    margin-bottom: 2em;
+  }
+  footer {
+    height: 380px;
+  }
+}
+@media (min-width: 440px) and (max-width: 539px) {
+  footer nav .mynavbar-f .nav li{
+    display: block;
+    width: 50%
+  }
+  footer nav .mynavbar-f {
+    margin-bottom: 1em;
+  }
+  footer {
+    height: 380px;
+  }
+}
+@media (min-width: 340px) and (max-width: 439px) {
+  footer nav .mynavbar-f .nav li{
+    display: block;
+    width: 65%
+  }
+  footer nav .mynavbar-f {
+    margin-bottom: .7em;
+  }
+  footer {
+    height: 380px;
+  }
+}
+@media (min-width: 240px) and (max-width: 339px) {
+  footer nav .mynavbar-f .nav li{
+    display: block;
+    width: 75%
+  }
+  footer nav .mynavbar-f {
+    margin-bottom: .7em;
+  }
+  footer {
+    height: 400px;
+  }
+}
+/** /FIN  ---  MEDIA QUERIES PARA EL FOOTER**/
+
 footer .redes-sociales a {
   color: #fff;
 }
@@ -7875,6 +7938,12 @@ footer .redes-sociales a {
 }
 }
 
+@media screen and (max-width: 439px) {
+  .hide-publicidad{
+    display: none !important;
+  }
+}
+
 /** PARA CENTRAR VERTICALMENTE **/
 .myPubli h2{
   position: relative;
@@ -7889,6 +7958,7 @@ footer .redes-sociales a {
 
 }
 .container-contacto{
+  width: 100%;
 
 }
 
