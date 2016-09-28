@@ -8039,4 +8039,42 @@ h2 a:hover{
   text-decoration: none;
   color: #333333;
 }
+
+
+/** MEDIA QUERIES PARA BARRA DE NAVEGACION PRINCIPAL**/
+@media (min-width: 540px) and (max-width: 769px) {
+  .mynavbar{
+    width: 50%;
+  }
+  .container > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-header, .container-fluid > .navbar-collapse {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+}
+
+@media (min-width: 440px) and (max-width: 539px) {
+  .mynavbar{
+    width: 60%;
+  }
+  .container > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-header, .container-fluid > .navbar-collapse {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+}
+
+@media (min-width: 340px) and (max-width: 439px) {
+  .mynavbar{
+    width: 80%;
+  }
+  .container > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-header, .container-fluid > .navbar-collapse {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+}
+
+/** /FIN  ---  MEDIA QUERIES PARA LA BARRA DE NAVEGACION PRINCIPAL**/
+
 /*# sourceMappingURL=estilos.css.map */
