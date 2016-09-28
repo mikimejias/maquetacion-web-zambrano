@@ -99,6 +99,14 @@
   border-radius: 0;
   margin-top: .1em;
 }
+.hide-img .amarillo {
+  background-color: #fcffd4;
+  transition: all 0.3s ease 0s;
+}
+.hide-img .amarillo:hover {
+  background-color: #ffb715;
+  color: #fff;
+}
 .hide-img .rojo {
   background-color: #ffe9e9;
   transition: all 0.3s ease 0s;
