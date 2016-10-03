@@ -7584,16 +7584,7 @@ body {
 }
 .carousel .item {
     height: 400px;
-    position: relative;
-}
-
-
-  
-
-
-
-.item img {
-  width: 100%;
+    /*position: relative;*/
 }
 .item span {
   font-style: normal;
