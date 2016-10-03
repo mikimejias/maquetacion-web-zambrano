@@ -7570,6 +7570,28 @@ body {
 }
 
 /***** Carrusel *****/
+#item1{
+  background: url("http://placehold.it/1200x500") no-repeat left center;
+  background-size: cover;
+}
+#item2{
+  background: url("http://placehold.it/1200x500") no-repeat left center;
+  background-size: cover;
+}
+#item3{
+  background: url("http://placehold.it/1200x500") no-repeat left center;
+  background-size: cover;
+}
+.carousel .item {
+    height: 400px;
+    position: relative;
+}
+
+
+  
+
+
+
 .item img {
   width: 100%;
 }
@@ -7582,10 +7604,10 @@ body {
   background-color: rgba(81, 81, 81, 0.3);
   border-radius: .2em;
   max-width: 400px;
+  height: 300px;
   overflow: hidden;
-  overflow-y: hidden;
   left: 3em;
-  top: 4em;
+  top: 3em;
   text-align: left;
 }
 .carousel-caption .mytitle {
@@ -7618,6 +7640,44 @@ body {
 .myArticles {
   margin-top: 3em;
 }
+
+@media (max-width: 979px){
+  #item1{
+    background: url("http://placehold.it/1200x500") no-repeat center center;
+    background-size: cover;
+  }
+  #item2{
+    background: url("http://placehold.it/1200x500") no-repeat center center;
+    background-size: cover;
+  }
+  #item3{
+    background: url("http://placehold.it/1200x500") no-repeat center center;
+    background-size: cover;
+  }
+
+  .carousel-caption {
+    left: 1em;
+    top: 2em;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .myparragraph{
+    font-size: .9em;
+  }
+
+  .carousel .mytitle{
+    height: 2.8em;
+    line-height: 2.8em;
+  }
+
+  .mytitle h3{
+    font-size: 1.2em;
+  }
+}
+
+
 /**
 .thumbnail {
   overflow: hidden;
